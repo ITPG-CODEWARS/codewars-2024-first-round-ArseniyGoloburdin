@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header nav {
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 30px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0; 
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #444; 
+    border-radius: 5px;
+}
+
+
+body {
+    padding-top: 70px; 
+    background-color: white;
+}
+.hero-heading {
+    font-family: 'Georgia', serif; 
+    font-weight: 700;
+    color: #304120;
+    text-shadow: 4px 2px #ccc;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
